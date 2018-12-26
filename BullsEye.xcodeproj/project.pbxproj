@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		874A254621D35A370093D305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874A254421D35A370093D305 /* Main.storyboard */; };
 		874A254821D35A3B0093D305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874A254721D35A3B0093D305 /* Assets.xcassets */; };
 		874A254B21D35A3B0093D305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874A254921D35A3B0093D305 /* LaunchScreen.storyboard */; };
+		874A255721D3868E0093D305 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A255621D3868E0093D305 /* AboutTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		874A254721D35A3B0093D305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		874A254A21D35A3B0093D305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		874A254C21D35A3B0093D305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874A255621D3868E0093D305 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,46 @@
 			isa = PBXGroup;
 			children = (
 				874A254021D35A370093D305 /* AppDelegate.swift */,
-				874A254221D35A370093D305 /* ViewController.swift */,
-				874A254421D35A370093D305 /* Main.storyboard */,
-				874A254721D35A3B0093D305 /* Assets.xcassets */,
-				874A254921D35A3B0093D305 /* LaunchScreen.storyboard */,
+				874A255521D35E2F0093D305 /* Model */,
+				874A255421D35E290093D305 /* View */,
+				874A255321D35E210093D305 /* Controller */,
+				874A255221D35E140093D305 /* Supporting Files */,
 				874A254C21D35A3B0093D305 /* Info.plist */,
 			);
 			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		874A255221D35E140093D305 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874A254721D35A3B0093D305 /* Assets.xcassets */,
+				874A254921D35A3B0093D305 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		874A255321D35E210093D305 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				874A254221D35A370093D305 /* ViewController.swift */,
+				874A255621D3868E0093D305 /* AboutTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		874A255421D35E290093D305 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				874A254421D35A370093D305 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		874A255521D35E2F0093D305 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,7 +135,7 @@
 				};
 			};
 			buildConfigurationList = 874A253821D35A370093D305 /* Build configuration list for PBXProject "BullsEye" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -137,6 +172,7 @@
 			files = (
 				874A254321D35A370093D305 /* ViewController.swift in Sources */,
 				874A254121D35A370093D305 /* AppDelegate.swift in Sources */,
+				874A255721D3868E0093D305 /* AboutTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
