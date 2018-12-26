@@ -13,6 +13,7 @@
 		874A254821D35A3B0093D305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874A254721D35A3B0093D305 /* Assets.xcassets */; };
 		874A254B21D35A3B0093D305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874A254921D35A3B0093D305 /* LaunchScreen.storyboard */; };
 		874A255721D3868E0093D305 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874A255621D3868E0093D305 /* AboutTableViewController.swift */; };
+		874A255921D3A16D0093D305 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 874A255821D3A16D0093D305 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		874A254A21D35A3B0093D305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		874A254C21D35A3B0093D305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		874A255621D3868E0093D305 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		874A255821D3A16D0093D305 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		874A255221D35E140093D305 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				874A255821D3A16D0093D305 /* BullsEye.html */,
 				874A254721D35A3B0093D305 /* Assets.xcassets */,
 				874A254921D35A3B0093D305 /* LaunchScreen.storyboard */,
 			);
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				874A254B21D35A3B0093D305 /* LaunchScreen.storyboard in Resources */,
+				874A255921D3A16D0093D305 /* BullsEye.html in Resources */,
 				874A254821D35A3B0093D305 /* Assets.xcassets in Resources */,
 				874A254621D35A370093D305 /* Main.storyboard in Resources */,
 			);
