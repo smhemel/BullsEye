@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    
+    
+    
     var score = 0
     var round = 0
     var targetValue = 0
@@ -22,7 +26,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        currentValue = lroundf(slidertrack.value)
         startNewGame()
+        
+        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")
+        slidertrack.setThumbImage(thumbImageNormal, for: .normal)
+        
+        let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")
+        slidertrack.setThumbImage(thumbImageHighlighted, for: .highlighted)
+        
+        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+        let trackLeftImage = UIImage(named: "SliderTrackLeft")
+        let trackLeftResizable = trackLeftImage?.resizableImage(withCapInsets: insets)
+        slidertrack.setMinimumTrackImage(trackLeftResizable, for: .normal)
+        
+        let trackRightImage = UIImage(named: "SliderTrackRight")
+        let trackRightResizable = trackRightImage?.resizableImage(withCapInsets: insets)
+        slidertrack.setMaximumTrackImage(trackRightResizable, for: .normal)
         
     }
     @IBAction func starButtonPressed(_ sender: Any) {
